@@ -1,0 +1,12 @@
+streamlit==1.61.1
+fastapi==0.141.1
+uvicorn==0.22.0
+requests==2.34.2
+pandas==3.0.5
+joblib==1.5.3
+scikit-learn==1.6.1
+pydantic==2.13.4
+lightgbm
+
+# Optional for development
+# watchdog
