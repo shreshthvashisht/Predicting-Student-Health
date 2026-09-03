@@ -3,7 +3,7 @@
 Predicts student health risk category (at-risk / unhealthy / fit) from lifestyle and biometric data.
 Built for the Kaggle Playground Series (July 2026), extended beyond the competition scope into a fully deployed, containerized inference service.
 
-**Live demo**: [add your Render URL once live]
+**Live demo**: https://predicting-student-health.onrender.com/
 
 ## Architecture
 - **Model training**: LightGBM classifier in a scikit-learn `Pipeline` (imputation, scaling, one-hot encoding), tuned via `GridSearchCV`, trained in a Kaggle notebook (`predicting_stduent_health.ipynb`)
